@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        amarelo: '#e6c744',
+                        cinza: '#c2c8da',
+                        cinzaclaro: '#F4F6F5;',
+                        fontcinza: '#7F7F7F'
+                    },
+                    screens: {
+                        '3xl': '1920px'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Shopping app</title>
+    <style>
+        *{
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="pt-[35px] px-[100px]">
+        <nav class="flex items-center justify-between">
+            <img src="/assent/Frame 57.png" alt="logo do shopping app">
+            <ul class="bg-amarelo fixed w-8/12 h-screen top-0 left-0 hidden lg:bg-transparent lg:relative lg:w-auto lg:h-auto lg:flex lg:items-center lg:gap-[65px] *:uppercase *:duration-200">
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo duration-200">Catalogue</a></li>
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo duration-200">Fashion</a></li>
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo duration-200">Favorite</a></li>
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo duration-200">Lifestyle</a></li>
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo duration-200 bg-black text-white leading-[62px] block px-[22px] rounded-md">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<section id="banners" class="px-3 pt-4 lg:px-[100px] lg:py-[52px]">
+
+        <img src="/assent/banner.png"
+         alt="feliz"
+         class="w-full">
+</section>
+</main>
+    <section id="marcas"
+         class="bg-amarelo mt-4">
+
+         <div class="flex items-center overflow-x-auto px-3 py-6 gap-4 lg:justify-between lg:gap-0 lg:px-[100px] lg:py-[50px]">
+            <img src="assent/HM.png" alt="logo HM" class="mix-blend-multiply h-[40px] lg:h-auto">
+            <img src="assent/obey.png" alt="logo obey" class="mix-blend-multiply h-[40px] lg:h-auto">
+            <img src="assent/shopify.png" alt="logo shopify" class="mix-blend-multiply h-[40px] lg:h-auto">
+            <img src="assent/lacoste.png" alt="logo lacoste" class="mix-blend-multiply h-[40px] lg:h-auto">
+            <img src="assent/levis.png" alt="logo levis"  class="mix-blend-multiply h-[40px] lg:h-auto">
+            <img src="assent/amazon.png" alt="logo amazon" class="mix-blend-multiply h-[40px] lg:h-auto">
+        </div>
+        
+</section>
+
+<section class="">
+    <div>
+        <h1 class="text-[22px] font-black ml-[49.4px] uppercase my-[47px]"> New Arrivals</h1>
+    </div>
+
+    <div class="block items-center justify-evenly lg:flex">
+        <div class="flex items-center justify-evenly">
+            <div class="block">
+                <img src="assent/Rectangle 20.png" alt="">
+                <div class="flex items-center justify-between">
+                    <div class="block">
+                        <h1 class="text-[15.2px] font-medium mt-[10px]"> New Arrivals</h1>
+                        <p class="text-[11.4px] font-medium text-fontcinza mb-[10px]">Explore Now!</p>
+                    </div>
+
+                    <div>
+                        <img src="assent/Arrow 1.png" alt="" class="w-[15.2px]">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flex items-center justify-evenly">
+            <div class="block">
+                <img src="assent/Rectangle 21.png" alt="">
+                <div class="flex items-center justify-between">
+                    <div class="block">
+                        <h1 class="text-[15.2px] font-medium mt-[10px]"> New Arrivals</h1>
+                        <p class="text-[11.4px] font-medium text-fontcinza mb-[10px]">Explore Now!</p>
+                    </div>
+
+                    <div>
+                        <img src="assent/Arrow 1.png" alt="" class="w-[15.2px]">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-evenly">
+            <div class="block">
+                <img src="assent/Rectangle 22.png" alt="">
+                <div class="flex items-center justify-between">
+                    <div class="block">
+                        <h1 class="text-[15.2px] font-medium mt-[10px]"> New Arrivals</h1>
+                        <p class="text-[11.4px] font-medium text-fontcinza mb-[10px]">Explore Now!</p>
+                    </div>
+
+                    <div>
+                        <img src="assent/Arrow 1.png" alt="" class="w-[15.2px]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>
